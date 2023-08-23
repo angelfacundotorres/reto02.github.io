@@ -1,22 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <!-- METADATA PARA GOOGLE -->
+    <meta name="description" content="Clon de Google - Winterhack 2023">
+<meta name="keywords" content="html, css, desarrollo web, codea rock" >
+<meta name="author" content="Facundo Torres - torresangelfacundo@gmail.com">
+<meta name="Copyright" content="Facundo Torres">
+<!-- META PARA FACEBOOK -->
+<meta property="og:title" content="Clon de Google - Winterhack 2023">
+<meta property="og:description" content="Desarrollo web con HTMl, CSS y Javascript">
+<meta property="og:type" content="Google Clon">
+<meta property="og:image" content="">
+<meta property="og:url" content="https://instagram.com/gmork.jpg">
+<!-- META TWITTER -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="Facundo Torres/>
+<meta property="twitter:title" content="Clon de Google - Winterhack 2023">
+<meta property="twitter:description" content="Desarrollo web con HTMl, CSS y Javascript"/>
+<meta property="twitter:image" content="">
+<meta property="twitter:image:alt" content="Clon de Google">
+<meta property="twitter:url" content="https://instagram.com/gmork.jpg">
+<!-- ROBOTS -->
+<meta name="robots" content="index follow">
     <!-- LINKEO CON BOOTSTRAP ICONS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/googleFavicon.png" type="image/x-icon">
+    <title>Google Clon reto02</title>
   </head>
   <body>
+    <!-- HEADER -->
     <header>
       <nav>
         <ul>
-          <li><a href="" class="itemsNav">Gmail</a></li>
-          <li><a href="" class="itemsNav">Imágenes</a></li>
+          <li><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&emr=1&ifkv=AXo7B7XItXOMDXtIeLIM5v4ZJGxhk6UrVI54SB1CCuJAtR3dARaa01b-f3DdTJY6lTY-9uYRUMp0_Q&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1477216052%3A1692820103748404" target="_blank" class="itemsNav">Gmail</a></li>
+          <li><a href="https://www.google.com.ar/imghp?hl=es-419&ogbl" class="itemsNav" target="_blank">Imágenes</a></li>
           <li>
             <span>
               <i class="bi bi-grid-3x3-gap-fill itemsNav iconoChocolate"></i>
@@ -26,8 +49,45 @@
         </ul>
       </nav>
     </header>
-    <section></section>
-    <footer></footer>
+    <!-- SECTION -->
+    <section>
+        <div class="contenedorImagenGoogle">
+            <img src="https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" class="googleImg" alt="Imagen de google">
+        </div>
+
+
+        <div class="barraBusqueda">
+            <div class="contenedorBarraBusqueda">
+                <div class="lupa"><span><i class="bi bi-search"></i></span></div>
+                <div class="divInput"><input type="text"></div>
+                <div class="busquedaImagen"><a href=""><img src="img/google-lens-2.png" alt="" class="iconoBusquedaImagen"></a></div>
+
+            </div>            
+        </div>
+
+        <div class="botones">
+            <a href="https://www.google.com" target="_blank" class="aparienciaBotones">Buscar con Google</a>
+            <a href="https://www.google.com/doodles" target="_blank" class="aparienciaBotones">Voy a tener suerte</a>
+        </div>
+    </section>
+    <footer>
+        <div class="pais">
+            <a href="">Argentina</a>
+        </div>
+        <div class="footerBotton">
+            <div class="footerBottonIz">
+                <a href="https://about.google/?fg=1" target="_blank">Sobre Google</a>
+                <a href="https://ads.google.com/intl/es-419_ar/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&fg=1" target="_blank">Publicidad</a>
+                <a href="https://www.google.com.ar/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&fg=1" target="_blank">Negocios</a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank">Cómo funciona la Búsqueda</a>
+            </div>
+            <div class="footerBottonDer">
+                <a href="https://policies.google.com/privacy?hl=es-419&fg=1" target="_blank">Privacidad</a>
+                <a href="https://policies.google.com/terms?hl=es-419&fg=1" target="_blank">Condiciones</a>
+                <a href="">Preferencias</a>
+            </div>
+        </div>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>

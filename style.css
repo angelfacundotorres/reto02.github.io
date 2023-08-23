@@ -43,9 +43,140 @@ header nav ul{
     width: 253.59px;
     box-sizing: border-box;
 }
+/* SECTION */
+.contenedorImagenGoogle{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
 
+}
+.googleImg{
+    width: 272px;
+    height: 92px;
+    margin-top: 4px;
+}
+/* BARRA DE BUSQUEDA */
+.barraBusqueda{
+    display: flex;
+    justify-content: center;
+}
+.contenedorBarraBusqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 582px;
+    height: 46px;
+    max-width: 584px;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    background-color: #202124;
 
+}
+.contenedorBarraBusqueda:hover{
+    background-color: #303134;
+    border: 1px solid transparent;
+}
+.divInput{
+    width: 88%;
+}
+div input{
+    background-color: #202124;    
+    width: 95%;
+    height: 80%;
+    margin-left: 2%;
+    border: none;
+    border-color: transparent;
+}
+div input:hover{
+    background-color: #303134;
+}
+.lupa{
+    color: #9AA0A6;
+    justify-content: flex-start;
+    
+}
+.bi-search{
+    font-size: small;
+}
+.iconoBusquedaImagen{
+    height: 19px;
+}
+.botones{
+    height: 70px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+.aparienciaBotones{
+    color: #DCDEE1;
+    background-color: #303134;
+    font-size: 14px;
+    margin: 11px 6px;
+    padding: 0px 16px;
+    cursor: pointer;
+    line-height: 36px;
+    height: 36px;
+    text-decoration: none;
+    border-radius: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid transparent;
+}
+.aparienciaBotones:hover{
+    border: 1px solid #4F5257;
 
+}
+/* FOOTER */
+footer{
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer a{
+    color: #999da2;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.pais{
+    padding: 16px 30px;
+    border-bottom: 1px solid #2f2d2d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footerBotton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 46px;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+    
+}
+.footerBottonDer{
+    display: flex;
+    justify-content: end;
+}
+.footerBottonDer a{
+    padding-right: 18px;
+}
+.footerBottonIz a{
+    padding-left: 16px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
 
 
 
